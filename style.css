@@ -1,0 +1,169 @@
+@charset "UTF-8";
+
+* {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.cabecalho {
+    background-color: #21272b;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+body {
+    margin: 0 50px 0;
+    font-size: 80%;
+}
+
+#logo {
+    width: 41px;
+    height: 55px;
+    margin: 20px 15px 20px 30px;
+}
+
+.menu {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.menu:hover {
+    color: #1bb4e8;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.barra-menu {
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #ffffff;
+}
+
+#luxo {
+    color: #1bb4e8;
+    font-style: italic;
+}
+
+#aluguel-iates {
+    color: #ffffff;
+    font-style: italic;
+}
+
+#nome-fantasia {
+    display: flex;
+    flex-direction: column;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+nav {
+    display: flex;
+    align-items: flex-end;
+    margin-right: 30px;
+    font-size: 14px;
+}
+
+#logo-e-nome {
+    display: flex;
+    align-items: flex-end;
+}
+
+ #quadro-text {
+    background-color: rgba(0, 0, 0, 60%);
+    color: #ffffff;
+    z-index: 2;
+    position: absolute;
+    top: 350px;
+    left: 45%;
+    width: 40%;
+    height: 35%;
+    font-size: 25px;
+    padding: 40px;
+}
+
+#imagem-principal {
+    width: 100%;
+    z-index: 1;
+    width: 100%;
+}
+
+#telefone {
+    text-decoration: none;
+    color: #c6b07f;
+}
+
+#telefone:hover {
+    color: #1bb4e8;
+}
+
+#rodape {
+    font-size: 10px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+#destino {
+    display: flex;
+    background-color: #1BB4E8;
+    width: 100%;
+    font-style: italic;
+    font-size: 12px;
+    color: #ffffff;
+    align-items: center;
+}
+
+#simbolo-destino {
+    width: 41px;
+    height: 41px;
+    align-items: center;
+    margin-left: 15px;
+}
+
+#frota {
+    display: flex;
+    background-color: #C6B07F;
+    width: 100%;
+    font-style: italic;
+    font-size: 12px;
+    color: #ffffff;
+    align-items: center;
+}
+
+#simbolo-frota {
+    width: 41px;
+    height: 41px;
+    align-items: center;
+    margin-left: 15px;
+}
+
+#barco-destino {
+    max-width: 100%;
+}
+
+#frota-img-esquerda {
+    max-width: 100%;
+}
+
+#container {
+    display: flex;
+    justify-content: space-around;
+}
+
+#container-divisao1 {
+    width: 40%;
+    justify-content: space-around;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+#container-divisao2 {
+    width: 40%;
+    justify-content: space-around;
+    margin-right: 30px;
+    margin-top: 10px;
+}
