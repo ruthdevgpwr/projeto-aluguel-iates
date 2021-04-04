@@ -141,8 +141,8 @@ nav {
     margin-left: 15px;
 }
 
-#barco-destino {
-    max-width: 100%;
+.texto-destino-frota {
+    text-align: justify;
 }
 
 #frota-img-esquerda {
